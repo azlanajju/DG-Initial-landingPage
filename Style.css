@@ -75,3 +75,46 @@ footer p {
     font-size: 0.875rem;
     color: #999;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.875rem;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.875rem;
+    }
+
+    .subscription-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .subscription-form input {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+
+    .subscription-form button {
+        font-size: 0.875rem;
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 0.75rem;
+    }
+}
+
